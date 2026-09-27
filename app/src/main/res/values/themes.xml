@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <style name="AppTheme.Base" parent="Theme.Material3.Dark.NoActionBar">
+
+        <item name="shapeAppearanceCornerExtraLarge">@dimen/radius_panel</item>
+        <item name="bottomSheetStyle">@style/VN.BottomSheet</item>
+
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="AppTheme" parent="AppTheme.Base">
+
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorOnPrimary">@color/color_on_primary</item>
+        <item name="colorPrimaryContainer">@color/color_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/color_on_primary_container</item>
+        <item name="colorSecondary">@color/color_secondary</item>
+        <item name="colorOnSecondary">@color/color_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/color_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/color_on_secondary_container</item>
+        <item name="colorTertiary">@color/color_tertiary</item>
+        <item name="colorOnTertiary">@color/color_on_tertiary</item>
+        <item name="colorTertiaryContainer">@color/color_tertiary_container</item>
+        <item name="colorOnTertiaryContainer">@color/color_on_tertiary_container</item>
+        <item name="colorError">@color/color_error</item>
+        <item name="colorOnError">@color/color_on_error</item>
+        <item name="colorErrorContainer">@color/color_error_container</item>
+        <item name="colorOnErrorContainer">@color/color_on_error_container</item>
+        <item name="android:colorBackground">@color/color_background</item>
+        <item name="colorOnBackground">@color/color_on_background</item>
+        <item name="colorSurface">@color/color_surface</item>
+        <item name="colorOnSurface">@color/color_on_surface</item>
+        <item name="colorSurfaceVariant">@color/color_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/color_on_surface_variant</item>
+        <item name="colorOutline">@color/color_outline</item>
+        <item name="colorOutlineVariant">@color/color_outline_variant</item>
+        <item name="colorSurfaceInverse">@color/color_inverse_surface</item>
+        <item name="colorOnSurfaceInverse">@color/color_inverse_on_surface</item>
+        <item name="colorPrimaryInverse">@color/color_inverse_primary</item>
+        <item name="colorPrimaryFixed">@color/color_primary_fixed</item>
+        <item name="colorOnPrimaryFixed">@color/color_on_primary_fixed</item>
+        <item name="colorPrimaryFixedDim">@color/color_primary_fixed_dim</item>
+        <item name="colorOnPrimaryFixedVariant">@color/color_on_primary_fixed_variant</item>
+        <item name="colorSecondaryFixed">@color/color_secondary_fixed</item>
+        <item name="colorOnSecondaryFixed">@color/color_on_secondary_fixed</item>
+        <item name="colorSecondaryFixedDim">@color/color_secondary_fixed_dim</item>
+        <item name="colorOnSecondaryFixedVariant">@color/color_on_secondary_fixed_variant</item>
+        <item name="colorTertiaryFixed">@color/color_tertiary_fixed</item>
+        <item name="colorOnTertiaryFixed">@color/color_on_tertiary_fixed</item>
+        <item name="colorTertiaryFixedDim">@color/color_tertiary_fixed_dim</item>
+        <item name="colorOnTertiaryFixedVariant">@color/color_on_tertiary_fixed_variant</item>
+        <item name="colorSurfaceDim">@color/color_surface_dim</item>
+        <item name="colorSurfaceBright">@color/color_surface_bright</item>
+        <item name="colorSurfaceContainerLowest">@color/color_surface_container_lowest</item>
+        <item name="colorSurfaceContainerLow">@color/color_surface_container_low</item>
+        <item name="colorSurfaceContainer">@color/color_surface_container</item>
+        <item name="colorSurfaceContainerHigh">@color/color_surface_container_high</item>
+        <item name="colorSurfaceContainerHighest">@color/color_surface_container_highest</item>
+
+        <item name="vnAccent">@color/vn_accent</item>
+        <item name="vnAccentBright">@color/vn_accent_bright</item>
+        <item name="vnAccentDeep">@color/vn_accent_deep</item>
+        <item name="vnOnAccent">@color/vn_on_accent</item>
+        <item name="vnAccentFaint">@color/vn_accent_faint</item>
+        <item name="vnAccentWash">@color/vn_accent_wash</item>
+        <item name="vnAccentLine">@color/vn_accent_line</item>
+        <item name="vnTextPrimary">@color/vn_text_primary</item>
+        <item name="vnTextSecondary">@color/vn_text_secondary</item>
+        <item name="vnTextFaint">@color/vn_text_faint</item>
+        <item name="vnGlassFill">@color/vn_glass_fill</item>
+        <item name="vnGlassFillSoft">@color/vn_glass_fill_soft</item>
+        <item name="vnGlassFillLight">@color/vn_glass_fill_light</item>
+        <item name="vnGlassFillFaint">@color/vn_glass_fill_faint</item>
+        <item name="vnGlassStroke">@color/vn_glass_stroke</item>
+        <item name="vnGlassStrokeStrong">@color/vn_glass_stroke_strong</item>
+        <item name="vnStrokeFaint">@color/vn_stroke_faint</item>
+        <item name="vnStrokeSoft">@color/vn_stroke_soft</item>
+        <item name="vnModalFill">@color/vn_modal_fill</item>
+        <item name="vnHintFill">@color/vn_hint_fill</item>
+        <item name="vnBadgeEmptyFill">@color/vn_badge_empty_fill</item>
+        <item name="vnRipple">@color/vn_ripple</item>
+        <item name="vnRippleAccent">@color/vn_ripple_accent</item>
+        <item name="vnScrimSide">@color/vn_scrim_side</item>
+        <item name="vnScrimBottomStart">@color/vn_scrim_bottom_start</item>
+        <item name="vnScrimBottomMid">@color/vn_scrim_bottom_mid</item>
+    </style>
+
+    <style name="VN.BottomSheet" parent="Widget.Material3.BottomSheet.Modal">
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="android:backgroundTint">@android:color/transparent</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Material3.Corner.None</item>
+    </style>
+
+    <style name="AppTheme.Splash" parent="AppTheme">
+        <item name="android:windowBackground">?android:attr/colorBackground</item>
+    </style>
+
+    <style name="AppTheme.Ocean" parent="AppTheme.Base">
+        <item name="colorPrimary">@color/ocean_color_primary</item>
+        <item name="colorOnPrimary">@color/ocean_color_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/ocean_color_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/ocean_color_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/ocean_color_secondary</item>
+        <item name="colorOnSecondary">@color/ocean_color_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/ocean_color_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/ocean_color_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/ocean_color_tertiary</item>
+        <item name="colorOnTertiary">@color/ocean_color_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/ocean_color_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/ocean_color_onTertiaryContainer</item>
+        <item name="colorError">@color/ocean_color_error</item>
+        <item name="colorOnError">@color/ocean_color_onError</item>
+        <item name="colorErrorContainer">@color/ocean_color_errorContainer</item>
+        <item name="colorOnErrorContainer">@color/ocean_color_onErrorContainer</item>
+        <item name="android:colorBackground">@color/ocean_color_background</item>
+        <item name="colorOnBackground">@color/ocean_color_onBackground</item>
+        <item name="colorSurface">@color/ocean_color_surface</item>
+        <item name="colorOnSurface">@color/ocean_color_onSurface</item>
+        <item name="colorSurfaceVariant">@color/ocean_color_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/ocean_color_onSurfaceVariant</item>
+        <item name="colorOutline">@color/ocean_color_outline</item>
+        <item name="colorOutlineVariant">@color/ocean_color_outlineVariant</item>
+        <item name="colorSurfaceInverse">@color/ocean_color_inverseSurface</item>
+        <item name="colorOnSurfaceInverse">@color/ocean_color_inverseOnSurface</item>
+        <item name="colorPrimaryInverse">@color/ocean_color_inversePrimary</item>
+        <item name="colorPrimaryFixed">@color/ocean_color_primaryFixed</item>
+        <item name="colorOnPrimaryFixed">@color/ocean_color_onPrimaryFixed</item>
+        <item name="colorPrimaryFixedDim">@color/ocean_color_primaryFixedDim</item>
+        <item name="colorOnPrimaryFixedVariant">@color/ocean_color_onPrimaryFixedVariant</item>
+        <item name="colorSecondaryFixed">@color/ocean_color_secondaryFixed</item>
+        <item name="colorOnSecondaryFixed">@color/ocean_color_onSecondaryFixed</item>
+        <item name="colorSecondaryFixedDim">@color/ocean_color_secondaryFixedDim</item>
+        <item name="colorOnSecondaryFixedVariant">@color/ocean_color_onSecondaryFixedVariant</item>
+        <item name="colorTertiaryFixed">@color/ocean_color_tertiaryFixed</item>
+        <item name="colorOnTertiaryFixed">@color/ocean_color_onTertiaryFixed</item>
+        <item name="colorTertiaryFixedDim">@color/ocean_color_tertiaryFixedDim</item>
+        <item name="colorOnTertiaryFixedVariant">@color/ocean_color_onTertiaryFixedVariant</item>
+        <item name="colorSurfaceDim">@color/ocean_color_surfaceDim</item>
+        <item name="colorSurfaceBright">@color/ocean_color_surfaceBright</item>
+        <item name="colorSurfaceContainerLowest">@color/ocean_color_surfaceContainerLowest</item>
+        <item name="colorSurfaceContainerLow">@color/ocean_color_surfaceContainerLow</item>
+        <item name="colorSurfaceContainer">@color/ocean_color_surfaceContainer</item>
+        <item name="colorSurfaceContainerHigh">@color/ocean_color_surfaceContainerHigh</item>
+        <item name="colorSurfaceContainerHighest">@color/ocean_color_surfaceContainerHighest</item>
+        <item name="vnAccent">@color/ocean_vn_accent</item>
+        <item name="vnAccentBright">@color/ocean_vn_accent_bright</item>
+        <item name="vnAccentDeep">@color/ocean_vn_accent_deep</item>
+        <item name="vnOnAccent">@color/ocean_vn_on_accent</item>
+        <item name="vnAccentFaint">@color/ocean_vn_accent_faint</item>
+        <item name="vnAccentWash">@color/ocean_vn_accent_wash</item>
+        <item name="vnAccentLine">@color/ocean_vn_accent_line</item>
+        <item name="vnTextPrimary">@color/ocean_vn_text_primary</item>
+        <item name="vnTextSecondary">@color/ocean_vn_text_secondary</item>
+        <item name="vnTextFaint">@color/ocean_vn_text_faint</item>
+        <item name="vnRipple">@color/ocean_vn_ripple</item>
+        <item name="vnRippleAccent">@color/ocean_vn_ripple_accent</item>
+        <item name="vnGlassFill">@color/ocean_vn_glass_fill</item>
+        <item name="vnGlassFillSoft">@color/ocean_vn_glass_fill_soft</item>
+        <item name="vnGlassFillLight">@color/ocean_vn_glass_fill_light</item>
+        <item name="vnGlassFillFaint">@color/ocean_vn_glass_fill_faint</item>
+        <item name="vnGlassStroke">@color/ocean_vn_glass_stroke</item>
+        <item name="vnGlassStrokeStrong">@color/ocean_vn_glass_stroke_strong</item>
+        <item name="vnStrokeFaint">@color/ocean_vn_stroke_faint</item>
+        <item name="vnStrokeSoft">@color/ocean_vn_stroke_soft</item>
+        <item name="vnModalFill">@color/ocean_vn_modal_fill</item>
+        <item name="vnHintFill">@color/ocean_vn_hint_fill</item>
+        <item name="vnBadgeEmptyFill">@color/ocean_vn_badge_empty_fill</item>
+        <item name="vnScrimSide">@color/ocean_vn_scrim_side</item>
+        <item name="vnScrimBottomStart">@color/ocean_vn_scrim_bottom_start</item>
+        <item name="vnScrimBottomMid">@color/ocean_vn_scrim_bottom_mid</item>
+    </style>
+
+    <style name="AppTheme.Ocean.Splash" parent="AppTheme.Ocean">
+        <item name="android:windowBackground">@color/ocean_color_background</item>
+    </style>
+
+    <style name="AppTheme.Celadon" parent="AppTheme.Base">
+        <item name="colorPrimary">@color/celadon_color_primary</item>
+        <item name="colorOnPrimary">@color/celadon_color_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/celadon_color_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/celadon_color_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/celadon_color_secondary</item>
+        <item name="colorOnSecondary">@color/celadon_color_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/celadon_color_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/celadon_color_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/celadon_color_tertiary</item>
+        <item name="colorOnTertiary">@color/celadon_color_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/celadon_color_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/celadon_color_onTertiaryContainer</item>
+        <item name="colorError">@color/celadon_color_error</item>
+        <item name="colorOnError">@color/celadon_color_onError</item>
+        <item name="colorErrorContainer">@color/celadon_color_errorContainer</item>
+        <item name="colorOnErrorContainer">@color/celadon_color_onErrorContainer</item>
+        <item name="android:colorBackground">@color/celadon_color_background</item>
+        <item name="colorOnBackground">@color/celadon_color_onBackground</item>
+        <item name="colorSurface">@color/celadon_color_surface</item>
+        <item name="colorOnSurface">@color/celadon_color_onSurface</item>
+        <item name="colorSurfaceVariant">@color/celadon_color_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/celadon_color_onSurfaceVariant</item>
+        <item name="colorOutline">@color/celadon_color_outline</item>
+        <item name="colorOutlineVariant">@color/celadon_color_outlineVariant</item>
+        <item name="colorSurfaceInverse">@color/celadon_color_inverseSurface</item>
+        <item name="colorOnSurfaceInverse">@color/celadon_color_inverseOnSurface</item>
+        <item name="colorPrimaryInverse">@color/celadon_color_inversePrimary</item>
+        <item name="colorPrimaryFixed">@color/celadon_color_primaryFixed</item>
+        <item name="colorOnPrimaryFixed">@color/celadon_color_onPrimaryFixed</item>
+        <item name="colorPrimaryFixedDim">@color/celadon_color_primaryFixedDim</item>
+        <item name="colorOnPrimaryFixedVariant">@color/celadon_color_onPrimaryFixedVariant</item>
+        <item name="colorSecondaryFixed">@color/celadon_color_secondaryFixed</item>
+        <item name="colorOnSecondaryFixed">@color/celadon_color_onSecondaryFixed</item>
+        <item name="colorSecondaryFixedDim">@color/celadon_color_secondaryFixedDim</item>
+        <item name="colorOnSecondaryFixedVariant">@color/celadon_color_onSecondaryFixedVariant</item>
+        <item name="colorTertiaryFixed">@color/celadon_color_tertiaryFixed</item>
+        <item name="colorOnTertiaryFixed">@color/celadon_color_onTertiaryFixed</item>
+        <item name="colorTertiaryFixedDim">@color/celadon_color_tertiaryFixedDim</item>
+        <item name="colorOnTertiaryFixedVariant">@color/celadon_color_onTertiaryFixedVariant</item>
+        <item name="colorSurfaceDim">@color/celadon_color_surfaceDim</item>
+        <item name="colorSurfaceBright">@color/celadon_color_surfaceBright</item>
+        <item name="colorSurfaceContainerLowest">@color/celadon_color_surfaceContainerLowest</item>
+        <item name="colorSurfaceContainerLow">@color/celadon_color_surfaceContainerLow</item>
+        <item name="colorSurfaceContainer">@color/celadon_color_surfaceContainer</item>
+        <item name="colorSurfaceContainerHigh">@color/celadon_color_surfaceContainerHigh</item>
+        <item name="colorSurfaceContainerHighest">@color/celadon_color_surfaceContainerHighest</item>
+        <item name="vnAccent">@color/celadon_vn_accent</item>
+        <item name="vnAccentBright">@color/celadon_vn_accent_bright</item>
+        <item name="vnAccentDeep">@color/celadon_vn_accent_deep</item>
+        <item name="vnOnAccent">@color/celadon_vn_on_accent</item>
+        <item name="vnAccentFaint">@color/celadon_vn_accent_faint</item>
+        <item name="vnAccentWash">@color/celadon_vn_accent_wash</item>
+        <item name="vnAccentLine">@color/celadon_vn_accent_line</item>
+        <item name="vnTextPrimary">@color/celadon_vn_text_primary</item>
+        <item name="vnTextSecondary">@color/celadon_vn_text_secondary</item>
+        <item name="vnTextFaint">@color/celadon_vn_text_faint</item>
+        <item name="vnRipple">@color/celadon_vn_ripple</item>
+        <item name="vnRippleAccent">@color/celadon_vn_ripple_accent</item>
+        <item name="vnGlassFill">@color/celadon_vn_glass_fill</item>
+        <item name="vnGlassFillSoft">@color/celadon_vn_glass_fill_soft</item>
+        <item name="vnGlassFillLight">@color/celadon_vn_glass_fill_light</item>
+        <item name="vnGlassFillFaint">@color/celadon_vn_glass_fill_faint</item>
+        <item name="vnGlassStroke">@color/celadon_vn_glass_stroke</item>
+        <item name="vnGlassStrokeStrong">@color/celadon_vn_glass_stroke_strong</item>
+        <item name="vnStrokeFaint">@color/celadon_vn_stroke_faint</item>
+        <item name="vnStrokeSoft">@color/celadon_vn_stroke_soft</item>
+        <item name="vnModalFill">@color/celadon_vn_modal_fill</item>
+        <item name="vnHintFill">@color/celadon_vn_hint_fill</item>
+        <item name="vnBadgeEmptyFill">@color/celadon_vn_badge_empty_fill</item>
+        <item name="vnScrimSide">@color/celadon_vn_scrim_side</item>
+        <item name="vnScrimBottomStart">@color/celadon_vn_scrim_bottom_start</item>
+        <item name="vnScrimBottomMid">@color/celadon_vn_scrim_bottom_mid</item>
+    </style>
+
+    <style name="AppTheme.Celadon.Splash" parent="AppTheme.Celadon">
+        <item name="android:windowBackground">@color/celadon_color_background</item>
+    </style>
+
+    <style name="AppTheme.Sakura" parent="AppTheme.Base">
+        <item name="colorPrimary">@color/sakura_color_primary</item>
+        <item name="colorOnPrimary">@color/sakura_color_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/sakura_color_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/sakura_color_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/sakura_color_secondary</item>
+        <item name="colorOnSecondary">@color/sakura_color_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/sakura_color_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/sakura_color_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/sakura_color_tertiary</item>
+        <item name="colorOnTertiary">@color/sakura_color_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/sakura_color_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/sakura_color_onTertiaryContainer</item>
+        <item name="colorError">@color/sakura_color_error</item>
+        <item name="colorOnError">@color/sakura_color_onError</item>
+        <item name="colorErrorContainer">@color/sakura_color_errorContainer</item>
+        <item name="colorOnErrorContainer">@color/sakura_color_onErrorContainer</item>
+        <item name="android:colorBackground">@color/sakura_color_background</item>
+        <item name="colorOnBackground">@color/sakura_color_onBackground</item>
+        <item name="colorSurface">@color/sakura_color_surface</item>
+        <item name="colorOnSurface">@color/sakura_color_onSurface</item>
+        <item name="colorSurfaceVariant">@color/sakura_color_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/sakura_color_onSurfaceVariant</item>
+        <item name="colorOutline">@color/sakura_color_outline</item>
+        <item name="colorOutlineVariant">@color/sakura_color_outlineVariant</item>
+        <item name="colorSurfaceInverse">@color/sakura_color_inverseSurface</item>
+        <item name="colorOnSurfaceInverse">@color/sakura_color_inverseOnSurface</item>
+        <item name="colorPrimaryInverse">@color/sakura_color_inversePrimary</item>
+        <item name="colorPrimaryFixed">@color/sakura_color_primaryFixed</item>
+        <item name="colorOnPrimaryFixed">@color/sakura_color_onPrimaryFixed</item>
+        <item name="colorPrimaryFixedDim">@color/sakura_color_primaryFixedDim</item>
+        <item name="colorOnPrimaryFixedVariant">@color/sakura_color_onPrimaryFixedVariant</item>
+        <item name="colorSecondaryFixed">@color/sakura_color_secondaryFixed</item>
+        <item name="colorOnSecondaryFixed">@color/sakura_color_onSecondaryFixed</item>
+        <item name="colorSecondaryFixedDim">@color/sakura_color_secondaryFixedDim</item>
+        <item name="colorOnSecondaryFixedVariant">@color/sakura_color_onSecondaryFixedVariant</item>
+        <item name="colorTertiaryFixed">@color/sakura_color_tertiaryFixed</item>
+        <item name="colorOnTertiaryFixed">@color/sakura_color_onTertiaryFixed</item>
+        <item name="colorTertiaryFixedDim">@color/sakura_color_tertiaryFixedDim</item>
+        <item name="colorOnTertiaryFixedVariant">@color/sakura_color_onTertiaryFixedVariant</item>
+        <item name="colorSurfaceDim">@color/sakura_color_surfaceDim</item>
+        <item name="colorSurfaceBright">@color/sakura_color_surfaceBright</item>
+        <item name="colorSurfaceContainerLowest">@color/sakura_color_surfaceContainerLowest</item>
+        <item name="colorSurfaceContainerLow">@color/sakura_color_surfaceContainerLow</item>
+        <item name="colorSurfaceContainer">@color/sakura_color_surfaceContainer</item>
+        <item name="colorSurfaceContainerHigh">@color/sakura_color_surfaceContainerHigh</item>
+        <item name="colorSurfaceContainerHighest">@color/sakura_color_surfaceContainerHighest</item>
+        <item name="vnAccent">@color/sakura_vn_accent</item>
+        <item name="vnAccentBright">@color/sakura_vn_accent_bright</item>
+        <item name="vnAccentDeep">@color/sakura_vn_accent_deep</item>
+        <item name="vnOnAccent">@color/sakura_vn_on_accent</item>
+        <item name="vnAccentFaint">@color/sakura_vn_accent_faint</item>
+        <item name="vnAccentWash">@color/sakura_vn_accent_wash</item>
+        <item name="vnAccentLine">@color/sakura_vn_accent_line</item>
+        <item name="vnTextPrimary">@color/sakura_vn_text_primary</item>
+        <item name="vnTextSecondary">@color/sakura_vn_text_secondary</item>
+        <item name="vnTextFaint">@color/sakura_vn_text_faint</item>
+        <item name="vnRipple">@color/sakura_vn_ripple</item>
+        <item name="vnRippleAccent">@color/sakura_vn_ripple_accent</item>
+        <item name="vnGlassFill">@color/sakura_vn_glass_fill</item>
+        <item name="vnGlassFillSoft">@color/sakura_vn_glass_fill_soft</item>
+        <item name="vnGlassFillLight">@color/sakura_vn_glass_fill_light</item>
+        <item name="vnGlassFillFaint">@color/sakura_vn_glass_fill_faint</item>
+        <item name="vnGlassStroke">@color/sakura_vn_glass_stroke</item>
+        <item name="vnGlassStrokeStrong">@color/sakura_vn_glass_stroke_strong</item>
+        <item name="vnStrokeFaint">@color/sakura_vn_stroke_faint</item>
+        <item name="vnStrokeSoft">@color/sakura_vn_stroke_soft</item>
+        <item name="vnModalFill">@color/sakura_vn_modal_fill</item>
+        <item name="vnHintFill">@color/sakura_vn_hint_fill</item>
+        <item name="vnBadgeEmptyFill">@color/sakura_vn_badge_empty_fill</item>
+        <item name="vnScrimSide">@color/sakura_vn_scrim_side</item>
+        <item name="vnScrimBottomStart">@color/sakura_vn_scrim_bottom_start</item>
+        <item name="vnScrimBottomMid">@color/sakura_vn_scrim_bottom_mid</item>
+    </style>
+
+    <style name="AppTheme.Sakura.Splash" parent="AppTheme.Sakura">
+        <item name="android:windowBackground">@color/sakura_color_background</item>
+    </style>
+
+    <style name="AppTheme.Lavender" parent="AppTheme.Base">
+        <item name="colorPrimary">@color/lavender_color_primary</item>
+        <item name="colorOnPrimary">@color/lavender_color_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/lavender_color_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/lavender_color_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/lavender_color_secondary</item>
+        <item name="colorOnSecondary">@color/lavender_color_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/lavender_color_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/lavender_color_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/lavender_color_tertiary</item>
+        <item name="colorOnTertiary">@color/lavender_color_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/lavender_color_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/lavender_color_onTertiaryContainer</item>
+        <item name="colorError">@color/lavender_color_error</item>
+        <item name="colorOnError">@color/lavender_color_onError</item>
+        <item name="colorErrorContainer">@color/lavender_color_errorContainer</item>
+        <item name="colorOnErrorContainer">@color/lavender_color_onErrorContainer</item>
+        <item name="android:colorBackground">@color/lavender_color_background</item>
+        <item name="colorOnBackground">@color/lavender_color_onBackground</item>
+        <item name="colorSurface">@color/lavender_color_surface</item>
+        <item name="colorOnSurface">@color/lavender_color_onSurface</item>
+        <item name="colorSurfaceVariant">@color/lavender_color_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/lavender_color_onSurfaceVariant</item>
+        <item name="colorOutline">@color/lavender_color_outline</item>
+        <item name="colorOutlineVariant">@color/lavender_color_outlineVariant</item>
+        <item name="colorSurfaceInverse">@color/lavender_color_inverseSurface</item>
+        <item name="colorOnSurfaceInverse">@color/lavender_color_inverseOnSurface</item>
+        <item name="colorPrimaryInverse">@color/lavender_color_inversePrimary</item>
+        <item name="colorPrimaryFixed">@color/lavender_color_primaryFixed</item>
+        <item name="colorOnPrimaryFixed">@color/lavender_color_onPrimaryFixed</item>
+        <item name="colorPrimaryFixedDim">@color/lavender_color_primaryFixedDim</item>
+        <item name="colorOnPrimaryFixedVariant">@color/lavender_color_onPrimaryFixedVariant</item>
+        <item name="colorSecondaryFixed">@color/lavender_color_secondaryFixed</item>
+        <item name="colorOnSecondaryFixed">@color/lavender_color_onSecondaryFixed</item>
+        <item name="colorSecondaryFixedDim">@color/lavender_color_secondaryFixedDim</item>
+        <item name="colorOnSecondaryFixedVariant">@color/lavender_color_onSecondaryFixedVariant</item>
+        <item name="colorTertiaryFixed">@color/lavender_color_tertiaryFixed</item>
+        <item name="colorOnTertiaryFixed">@color/lavender_color_onTertiaryFixed</item>
+        <item name="colorTertiaryFixedDim">@color/lavender_color_tertiaryFixedDim</item>
+        <item name="colorOnTertiaryFixedVariant">@color/lavender_color_onTertiaryFixedVariant</item>
+        <item name="colorSurfaceDim">@color/lavender_color_surfaceDim</item>
+        <item name="colorSurfaceBright">@color/lavender_color_surfaceBright</item>
+        <item name="colorSurfaceContainerLowest">@color/lavender_color_surfaceContainerLowest</item>
+        <item name="colorSurfaceContainerLow">@color/lavender_color_surfaceContainerLow</item>
+        <item name="colorSurfaceContainer">@color/lavender_color_surfaceContainer</item>
+        <item name="colorSurfaceContainerHigh">@color/lavender_color_surfaceContainerHigh</item>
+        <item name="colorSurfaceContainerHighest">@color/lavender_color_surfaceContainerHighest</item>
+        <item name="vnAccent">@color/lavender_vn_accent</item>
+        <item name="vnAccentBright">@color/lavender_vn_accent_bright</item>
+        <item name="vnAccentDeep">@color/lavender_vn_accent_deep</item>
+        <item name="vnOnAccent">@color/lavender_vn_on_accent</item>
+        <item name="vnAccentFaint">@color/lavender_vn_accent_faint</item>
+        <item name="vnAccentWash">@color/lavender_vn_accent_wash</item>
+        <item name="vnAccentLine">@color/lavender_vn_accent_line</item>
+        <item name="vnTextPrimary">@color/lavender_vn_text_primary</item>
+        <item name="vnTextSecondary">@color/lavender_vn_text_secondary</item>
+        <item name="vnTextFaint">@color/lavender_vn_text_faint</item>
+        <item name="vnRipple">@color/lavender_vn_ripple</item>
+        <item name="vnRippleAccent">@color/lavender_vn_ripple_accent</item>
+        <item name="vnGlassFill">@color/lavender_vn_glass_fill</item>
+        <item name="vnGlassFillSoft">@color/lavender_vn_glass_fill_soft</item>
+        <item name="vnGlassFillLight">@color/lavender_vn_glass_fill_light</item>
+        <item name="vnGlassFillFaint">@color/lavender_vn_glass_fill_faint</item>
+        <item name="vnGlassStroke">@color/lavender_vn_glass_stroke</item>
+        <item name="vnGlassStrokeStrong">@color/lavender_vn_glass_stroke_strong</item>
+        <item name="vnStrokeFaint">@color/lavender_vn_stroke_faint</item>
+        <item name="vnStrokeSoft">@color/lavender_vn_stroke_soft</item>
+        <item name="vnModalFill">@color/lavender_vn_modal_fill</item>
+        <item name="vnHintFill">@color/lavender_vn_hint_fill</item>
+        <item name="vnBadgeEmptyFill">@color/lavender_vn_badge_empty_fill</item>
+        <item name="vnScrimSide">@color/lavender_vn_scrim_side</item>
+        <item name="vnScrimBottomStart">@color/lavender_vn_scrim_bottom_start</item>
+        <item name="vnScrimBottomMid">@color/lavender_vn_scrim_bottom_mid</item>
+    </style>
+
+    <style name="AppTheme.Lavender.Splash" parent="AppTheme.Lavender">
+        <item name="android:windowBackground">@color/lavender_color_background</item>
+    </style>
+</resources>

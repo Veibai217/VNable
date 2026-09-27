@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <color name="color_primary">#E5BC7F</color>
+    <color name="color_on_primary">#2B1D0C</color>
+    <color name="color_primary_container">#4A3A21</color>
+    <color name="color_on_primary_container">#F6E3C4</color>
+    <color name="color_secondary">#CFC5AC</color>
+    <color name="color_on_secondary">#363023</color>
+    <color name="color_secondary_container">#3B3527</color>
+    <color name="color_on_secondary_container">#ECE2CA</color>
+    <color name="color_tertiary">#D8C2A8</color>
+    <color name="color_on_tertiary">#3C2F20</color>
+    <color name="color_tertiary_container">#544432</color>
+    <color name="color_on_tertiary_container">#F5DDBD</color>
+    <color name="color_error">#F2B8B5</color>
+    <color name="color_on_error">#671613</color>
+    <color name="color_error_container">#8C1D18</color>
+    <color name="color_on_error_container">#F9DEDC</color>
+
+    <color name="color_background">#0E0B08</color>
+    <color name="color_on_background">#F2EBE0</color>
+    <color name="color_surface">#16120D</color>
+    <color name="color_on_surface">#F2EBE0</color>
+    <color name="color_surface_variant">#262019</color>
+    <color name="color_on_surface_variant">#B0A695</color>
+    <color name="color_outline">#8A8172</color>
+    <color name="color_outline_variant">#332C24</color>
+    <color name="color_scrim">#000000</color>
+    <color name="color_inverse_surface">#F2EBE0</color>
+    <color name="color_inverse_on_surface">#221D16</color>
+    <color name="color_inverse_primary">#6B5227</color>
+    <color name="color_primary_fixed">#F6E3C4</color>
+    <color name="color_on_primary_fixed">#261904</color>
+    <color name="color_primary_fixed_dim">#E5BC7F</color>
+    <color name="color_on_primary_fixed_variant">#4A3A21</color>
+    <color name="color_secondary_fixed">#ECE2CA</color>
+    <color name="color_on_secondary_fixed">#231E13</color>
+    <color name="color_secondary_fixed_dim">#CFC5AC</color>
+    <color name="color_on_secondary_fixed_variant">#3B3527</color>
+    <color name="color_tertiary_fixed">#F5DDBD</color>
+    <color name="color_on_tertiary_fixed">#241A0B</color>
+    <color name="color_tertiary_fixed_dim">#D8C2A8</color>
+    <color name="color_on_tertiary_fixed_variant">#544432</color>
+    <color name="color_surface_dim">#0B0906</color>
+    <color name="color_surface_bright">#3C352B</color>
+    <color name="color_surface_container_lowest">#080604</color>
+    <color name="color_surface_container_low">#14100B</color>
+    <color name="color_surface_container">#1C1711</color>
+    <color name="color_surface_container_high">#262019</color>
+    <color name="color_surface_container_highest">#312A21</color>
+
+    <color name="vn_accent">#E5BC7F</color>
+    <color name="vn_accent_bright">#F4D9A6</color>
+    <color name="vn_accent_deep">#B98F4E</color>
+    <color name="vn_on_accent">#2B1D0C</color>
+    <color name="vn_accent_faint">#2EE5BC7F</color>
+    <color name="vn_accent_wash">#3EE5BC7F</color>
+    <color name="vn_accent_line">#59E5BC7F</color>
+
+    <color name="vn_glass_fill">#D917120C</color>
+    <color name="vn_glass_fill_soft">#9917120C</color>
+    <color name="vn_glass_fill_light">#66262019</color>
+    <color name="vn_glass_fill_faint">#1417120C</color>
+    <color name="vn_glass_stroke">#24F2EBE0</color>
+    <color name="vn_glass_stroke_strong">#3DF2EBE0</color>
+    <color name="vn_stroke_faint">#1AF2EBE0</color>
+    <color name="vn_stroke_soft">#2EF2EBE0</color>
+
+    <color name="vn_modal_fill">#F51A140C</color>
+    <color name="vn_hint_fill">#E61D1810</color>
+
+    <color name="vn_text_primary">#F2EBE0</color>
+    <color name="vn_text_secondary">#B0A695</color>
+    <color name="vn_text_faint">#6E6657</color>
+
+    <color name="vn_ripple">#1AF2EBE0</color>
+    <color name="vn_ripple_accent">#29E5BC7F</color>
+
+    <color name="vn_scrim_side">#CC0A0806</color>
+    <color name="vn_scrim_bottom_start">#B30A0806</color>
+    <color name="vn_scrim_bottom_mid">#590A0806</color>
+
+    <color name="vn_badge_empty_fill">#1F1A13</color>
+</resources>

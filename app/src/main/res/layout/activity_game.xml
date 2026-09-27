@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorSurfaceDim">
+
+    <ImageView
+        android:id="@+id/iv_bg_a"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_bg_b"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:alpha="0"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/scrim_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/scrim_bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_percent="0.55"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/sys_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/game_sys_btn"
+        android:layout_marginTop="@dimen/game_sys_bar_top"
+        android:layout_marginEnd="@dimen/game_sys_bar_end"
+        android:background="@drawable/bg_glass_pill"
+        android:orientation="horizontal"
+        android:paddingHorizontal="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/btn_sys_save"
+            android:layout_width="@dimen/game_sys_btn"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:contentDescription="@string/sys_save"
+            android:focusable="true"
+            android:padding="12dp"
+            android:src="@drawable/ic_save"
+            app:tint="?attr/vnTextSecondary" />
+
+        <ImageView
+            android:id="@+id/btn_sys_items"
+            android:layout_width="@dimen/game_sys_btn"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:contentDescription="@string/sys_items"
+            android:focusable="true"
+            android:padding="12dp"
+            android:src="@drawable/ic_items"
+            app:tint="?attr/vnTextSecondary" />
+
+        <ImageView
+            android:id="@+id/btn_sys_settings"
+            android:layout_width="@dimen/game_sys_btn"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:contentDescription="@string/sys_settings"
+            android:focusable="true"
+            android:padding="12dp"
+            android:src="@drawable/ic_settings"
+            app:tint="?attr/vnTextSecondary" />
+
+        <ImageView
+            android:id="@+id/btn_sys_lobby"
+            android:layout_width="@dimen/game_sys_btn"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:contentDescription="@string/sys_lobby"
+            android:focusable="true"
+            android:padding="12dp"
+            android:src="@drawable/ic_lobby"
+            app:tint="?attr/vnTextSecondary" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_char_left"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/game_char_margin"
+        android:background="@drawable/bg_char_frame"
+        android:clipToOutline="true"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/dialog_box"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sys_bar"
+        app:layout_constraintVertical_bias="0.42"
+        app:layout_constraintWidth_percent="0.22">
+
+        <ImageView
+            android:id="@+id/iv_char_left"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_char_right"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="@dimen/game_char_margin"
+        android:background="@drawable/bg_char_frame"
+        android:clipToOutline="true"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/dialog_box"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sys_bar"
+        app:layout_constraintVertical_bias="0.42"
+        app:layout_constraintWidth_percent="0.22">
+
+        <ImageView
+            android:id="@+id/iv_char_right"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/options_box"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/dialog_box"
+        app:layout_constraintEnd_toStartOf="@id/frame_char_right"
+        app:layout_constraintStart_toEndOf="@id/frame_char_left"
+        app:layout_constraintTop_toBottomOf="@id/sys_bar"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <TextView
+        android:id="@+id/tv_float_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:alpha="0"
+        android:background="@drawable/bg_float_hint"
+        android:elevation="8dp"
+        android:importantForAccessibility="no"
+        android:paddingHorizontal="18dp"
+        android:paddingVertical="10dp"
+        android:textAppearance="@style/TextAppearance.VN.ListTitle"
+        app:layout_constraintBottom_toTopOf="@id/dialog_box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/dialog_box"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/game_dialog_h_margin"
+        android:layout_marginEnd="@dimen/game_dialog_h_margin"
+        android:layout_marginBottom="@dimen/game_dialog_bottom_margin"
+        android:background="@drawable/bg_glass_panel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.28"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/tv_actor_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|start"
+            android:layout_marginStart="@dimen/game_dialog_h_pad"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_badge_empty"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="2dp"
+            android:textAppearance="@style/TextAppearance.VN.Index"
+            android:textColor="?attr/vnAccentBright" />
+
+        <TextView
+            android:id="@+id/tv_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start|center_vertical"
+            android:paddingHorizontal="@dimen/game_dialog_h_pad"
+            android:paddingTop="34dp"
+            android:paddingBottom="@dimen/game_dialog_v_pad"
+            android:textAppearance="@style/TextAppearance.VN.Dialog" />
+
+        <FrameLayout
+            android:id="@+id/hint_wrap"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="12dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_hint_circle" />
+
+            <ImageView
+                android:id="@+id/iv_continue_hint"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_gravity="center"
+                android:alpha="0"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_continue"
+                app:tint="?attr/vnAccentBright" />
+        </FrameLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

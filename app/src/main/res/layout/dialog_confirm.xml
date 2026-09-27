@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_modal"
+    android:orientation="vertical"
+    android:paddingHorizontal="22dp"
+    android:paddingTop="24dp"
+    android:paddingBottom="22dp">
+
+    <TextView
+        android:id="@+id/tv_confirm_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textAppearance="@style/TextAppearance.VN.ModalTitle"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_confirm_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingMultiplier="1.5"
+        android:textColor="?attr/vnTextPrimary"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/btn_confirm_neutral"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/modal_btn_h"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/bg_menu_item"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.VN.MenuItem"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/btn_confirm_negative"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/modal_btn_h"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_menu_item"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.VN.MenuItem"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/btn_confirm_primary"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/modal_btn_h"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/bg_menu_primary"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.VN.MenuPrimary"
+        android:visibility="gone" />
+</LinearLayout>

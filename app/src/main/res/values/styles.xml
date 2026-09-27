@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextAppearance.VN.Display" parent="">
+        <item name="android:fontFamily">@font/marcellus</item>
+        <item name="android:textSize">46sp</item>
+        <item name="android:textColor">?attr/vnTextPrimary</item>
+        <item name="android:letterSpacing">0.04</item>
+    </style>
+
+    <style name="TextAppearance.VN.Index" parent="">
+        <item name="android:fontFamily">@font/marcellus</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">?attr/vnAccent</item>
+        <item name="android:letterSpacing">0.06</item>
+    </style>
+
+    <style name="TextAppearance.VN.MenuPrimary" parent="">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/vnOnAccent</item>
+        <item name="android:letterSpacing">0.04</item>
+    </style>
+
+    <style name="TextAppearance.VN.MenuItem" parent="">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">?attr/vnTextPrimary</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    <style name="TextAppearance.VN.Option" parent="">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">?attr/vnTextPrimary</item>
+    </style>
+
+    <style name="TextAppearance.VN.SysLabel" parent="">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">?attr/vnTextSecondary</item>
+    </style>
+
+    <style name="TextAppearance.VN.Dialog" parent="">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">?attr/vnTextPrimary</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+    </style>
+
+    <style name="TextAppearance.VN.ModalTitle" parent="">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/vnTextPrimary</item>
+    </style>
+
+    <style name="TextAppearance.VN.SectionLabel" parent="">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?attr/vnTextSecondary</item>
+        <item name="android:letterSpacing">0.08</item>
+    </style>
+
+    <style name="TextAppearance.VN.Segment" parent="">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">?attr/vnTextSecondary</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TextAppearance.VN.ListTitle" parent="">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">?attr/vnTextPrimary</item>
+    </style>
+
+    <style name="TextAppearance.VN.ListSub" parent="">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?attr/vnTextSecondary</item>
+    </style>
+
+    <style name="Animation.VN.Modal" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/modal_in</item>
+        <item name="android:windowExitAnimation">@anim/modal_out</item>
+    </style>
+</resources>

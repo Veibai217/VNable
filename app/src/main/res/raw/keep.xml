@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:keep="@drawable/src_launcher,@drawable/src_launcher_1,@drawable/src_launcher_2,@drawable/src_launcher_3,@drawable/src_launcher_4,@drawable/src_launcher_5,@drawable/src_launcher_6,@drawable/src_launcher_7,@drawable/src_launcher_8,@drawable/src_launcher_9,@drawable/src_launcher_10,@drawable/src_launcher_11,@drawable/game_launcher,@drawable/game_launcher_1,@drawable/game_launcher_2,@drawable/game_launcher_3,@drawable/game_launcher_4,@drawable/game_launcher_5,@drawable/game_launcher_6,@drawable/game_launcher_7,@drawable/game_launcher_8,@drawable/game_launcher_9,@drawable/game_launcher_10,@drawable/game_launcher_11,@drawable/app_icon,@font/marcellus" />

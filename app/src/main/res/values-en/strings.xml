@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VNable</string>
+    <string name="game_title">VNable</string>
+    <string name="game_subtitle">Visual Novel Script Engine</string>
+
+    <string name="menu_continue_start">Start Game</string>
+    <string name="menu_save">Load Save</string>
+    <string name="menu_packs">Story Packs</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_exit">Exit</string>
+
+    <string name="sys_save">Save</string>
+    <string name="sys_items">Items</string>
+    <string name="sys_settings">Settings</string>
+    <string name="sys_lobby">Lobby</string>
+
+    <string name="action_cancel">Cancel</string>
+    <string name="action_confirm">OK</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_done">Done</string>
+    <string name="action_back">Back</string>
+
+    <string name="dialog_exit_msg">Exit the game?</string>
+    <string name="lobby_confirm_msg">Unsaved progress will be lost.</string>
+    <string name="action_save_and_back">Save &amp; Exit</string>
+    <string name="action_back_direct">Exit without Saving</string>
+
+    <string name="pack_manager_title">Story Pack Manager</string>
+    <string name="pack_import">Import</string>
+    <string name="pack_importing">Importing…</string>
+    <string name="pack_scanning">Scanning story packs…</string>
+    <string name="pack_uninstall">Uninstall</string>
+    <string name="pack_pick_title">Choose a story pack to play</string>
+    <string name="pack_none_hint">No story packs installed yet.\nImport one now?</string>
+    <string name="pack_go_import">Import</string>
+    <string name="pack_sub_fmt">v%1$s · %2$s</string>
+    <string name="pack_empty_hint">No story packs here yet.\nTap \"Import\" in the top-right corner and pick a story pack archive (.zip).</string>
+    <string name="pack_import_done">Imported \"%1$s\"</string>
+    <string name="pack_import_failed">Import failed: %1$s (see the system Downloads folder or the app-private logs folder for details)</string>
+    <string name="pack_uninstall_confirm">Uninstall \"%1$s\"?\nAll data inside this pack will be deleted.</string>
+    <string name="pack_missing">Story pack not found or has been uninstalled</string>
+
+    <string name="save_slots_title_save">Save Progress</string>
+    <string name="save_slots_title_load">Load Save</string>
+    <string name="save_slot_empty">Empty slot</string>
+    <string name="save_slot_sub_fmt">%1$s · %2$s</string>
+    <string name="save_done">Saved to slot %1$d</string>
+    <string name="loaded_from_save">Loaded progress from slot %1$d</string>
+    <string name="overwrite_confirm">Overwrite this slot?</string>
+    <string name="delete_confirm">Delete this save?</string>
+
+    <string name="items_title">Items</string>
+    <string name="items_empty">No items obtained yet</string>
+    <string name="item_gain_fmt">Gained %1$s ×%2$d</string>
+    <string name="item_lose_fmt">Lost %1$s ×%2$d</string>
+    <string name="item_gain_list_fmt">Gained %1$s</string>
+    <string name="item_lose_list_fmt">Lost %1$s</string>
+    <string name="item_sep">", "</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_group_text">Text</string>
+    <string name="settings_group_audio">Audio</string>
+    <string name="settings_group_about">About</string>
+    <string name="settings_group_theme">Theme</string>
+    <string name="settings_theme">Theme Color</string>
+    <string name="settings_theme_fmt">Theme: %1$s</string>
+    <string name="theme_amber">Amber</string>
+    <string name="theme_ocean">Ocean</string>
+    <string name="theme_celadon">Celadon</string>
+    <string name="theme_sakura">Sakura</string>
+    <string name="theme_lavender">Lavender</string>
+    <string name="settings_language">Language / 语言</string>
+    <string name="lang_system">System</string>
+    <string name="lang_zh">中文</string>
+    <string name="lang_en">English</string>
+    <string name="settings_text_speed">Text Speed</string>
+    <string name="speed_slow">Slow</string>
+    <string name="speed_normal">Normal</string>
+    <string name="speed_fast">Fast</string>
+    <string name="speed_instant">Instant</string>
+    <string name="settings_audio">Sound &amp; Music</string>
+    <string name="settings_font_size">Font Size</string>
+    <string name="font_small">Small</string>
+    <string name="font_standard">Standard</string>
+    <string name="font_large">Large</string>
+    <string name="settings_version">Version</string>
+
+    <string name="story_end">The End</string>
+    <string name="back_to_lobby">Back to Lobby</string>
+    <string name="scene_missing_fmt">Config error: scene not found: %1$s</string>
+
+    <string name="import_err_read">Cannot read the selected file</string>
+    <string name="import_err_no_info">Info.json is missing from the archive</string>
+    <string name="import_err_bad_uid">Invalid uid in Info.json: %1$s</string>
+    <string name="import_err_no_main">Main.json is missing from the archive</string>
+    <string name="import_err_mkdir">Failed to create directory: %1$s</string>
+    <string name="import_err_parse_info">Info.json could not be parsed after extraction</string>
+    <string name="import_err_exception">Import error: %1$s</string>
+    <string name="import_err_slip">Archive contains an out-of-bounds path: %1$s</string>
+    <string name="import_log_title">VNable story pack import log</string>
+    <string name="import_log_time">"Time: "</string>
+    <string name="import_log_file">Selected file: %1$s</string>
+    <string name="import_log_cached">Copied to cache: %1$d bytes</string>
+    <string name="import_log_pack_info">Pack info: name=%1$s uid=%2$s ver=%3$s</string>
+    <string name="import_log_old_found">Existing install with the same uid found; removing it first</string>
+    <string name="import_log_extracted">Extracted %1$d file(s)</string>
+    <string name="import_log_fail">Import failed: %1$s</string>
+</resources>
