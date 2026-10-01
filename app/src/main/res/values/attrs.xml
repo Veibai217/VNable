@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <attr name="vnAccent" format="color" />
+    <attr name="vnAccentBright" format="color" />
+    <attr name="vnAccentDeep" format="color" />
+    <attr name="vnOnAccent" format="color" />
+    <attr name="vnAccentFaint" format="color" />
+    <attr name="vnAccentWash" format="color" />
+    <attr name="vnAccentLine" format="color" />
+
+    <attr name="vnTextPrimary" format="color" />
+    <attr name="vnTextSecondary" format="color" />
+    <attr name="vnTextFaint" format="color" />
+
+    <attr name="vnGlassFill" format="color" />
+    <attr name="vnGlassFillSoft" format="color" />
+    <attr name="vnGlassFillLight" format="color" />
+    <attr name="vnGlassFillFaint" format="color" />
+    <attr name="vnGlassStroke" format="color" />
+    <attr name="vnGlassStrokeStrong" format="color" />
+    <attr name="vnStrokeFaint" format="color" />
+    <attr name="vnStrokeSoft" format="color" />
+    <attr name="vnModalFill" format="color" />
+    <attr name="vnHintFill" format="color" />
+    <attr name="vnBadgeEmptyFill" format="color" />
+
+    <attr name="vnRipple" format="color" />
+    <attr name="vnRippleAccent" format="color" />
+    <attr name="vnScrimSide" format="color" />
+    <attr name="vnScrimBottomStart" format="color" />
+    <attr name="vnScrimBottomMid" format="color" />
+</resources>

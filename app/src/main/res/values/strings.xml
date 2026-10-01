@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VNable</string>
+    <string name="game_title">VNable</string>
+    <string name="game_subtitle">视觉小说引擎</string>
+
+    <string name="menu_continue_start">开始游戏</string>
+    <string name="menu_save">读取存档</string>
+    <string name="menu_packs">剧本包</string>
+    <string name="menu_settings">设置</string>
+    <string name="menu_exit">退出游戏</string>
+
+    <string name="sys_save">存档</string>
+    <string name="sys_items">物品</string>
+    <string name="sys_settings">设置</string>
+    <string name="sys_lobby">大厅</string>
+
+    <string name="action_cancel">取消</string>
+    <string name="action_confirm">确定</string>
+    <string name="action_delete">删除</string>
+    <string name="action_done">完成</string>
+    <string name="action_back">返回</string>
+
+    <string name="dialog_exit_msg">确定要退出游戏吗？</string>
+    <string name="lobby_confirm_msg">未保存的进度将会丢失。</string>
+    <string name="action_save_and_back">保存并返回</string>
+    <string name="action_back_direct">直接返回</string>
+
+    <string name="pack_manager_title">剧本包管理</string>
+    <string name="pack_import">导入</string>
+    <string name="pack_importing">正在导入…</string>
+    <string name="pack_scanning">正在扫描剧本包…</string>
+    <string name="pack_uninstall">卸载</string>
+    <string name="pack_pick_title">选择要游玩的剧本包</string>
+    <string name="pack_none_hint">还没有导入任何剧本包。\n要先去导入一个吗？</string>
+    <string name="pack_go_import">去导入</string>
+    <string name="pack_author_fmt">作者：%1$s</string>
+    <string name="pack_empty_hint">这里还没有剧本包。\n点击右上角「导入」，选择一个剧本包压缩包（.zip）。</string>
+    <string name="pack_import_done">「%1$s」导入成功</string>
+    <string name="pack_import_failed">导入失败：%1$s（详细日志见系统 Download 目录或应用私有 logs 目录）</string>
+    <string name="pack_uninstall_confirm">卸载剧本包「%1$s」？\n该包内的所有数据都会被删除。</string>
+    <string name="pack_missing">剧本包不存在或已被卸载</string>
+
+    <string name="save_slots_title_save">保存进度</string>
+    <string name="save_slots_title_load">读取存档</string>
+    <string name="save_slot_empty">空存档位</string>
+    <string name="save_slot_sub_fmt">%1$s · %2$s</string>
+    <string name="save_done">已保存到存档位 %1$d</string>
+    <string name="loaded_from_save">已从存档位 %1$d 读取进度</string>
+    <string name="overwrite_confirm">覆盖这个存档位？</string>
+    <string name="delete_confirm">删除这个存档？</string>
+
+    <string name="items_title">物品</string>
+    <string name="items_empty">还没有获得任何物品</string>
+    <string name="item_gain_fmt">获得 %1$s ×%2$d</string>
+    <string name="item_lose_fmt">交出 %1$s ×%2$d</string>
+    <string name="item_gain_list_fmt">获得 %1$s</string>
+    <string name="item_lose_list_fmt">交出 %1$s</string>
+    <string name="item_sep">、</string>
+
+    <string name="settings_title">设置</string>
+    <string name="settings_group_text">文本</string>
+    <string name="settings_group_audio">音频</string>
+    <string name="settings_group_about">关于</string>
+    <string name="settings_group_theme">主题</string>
+    <string name="settings_theme">主题色</string>
+    <string name="settings_theme_fmt">主题：%1$s</string>
+    <string name="theme_amber">琥珀</string>
+    <string name="theme_ocean">海雾</string>
+    <string name="theme_celadon">青瓷</string>
+    <string name="theme_sakura">樱粉</string>
+    <string name="theme_lavender">雾紫</string>
+    <string name="settings_language">语言 / Language</string>
+    <string name="lang_system">跟随系统</string>
+    <string name="lang_zh">中文</string>
+    <string name="lang_en">English</string>
+    <string name="settings_text_speed">文字速度</string>
+    <string name="speed_slow">慢</string>
+    <string name="speed_normal">标准</string>
+    <string name="speed_fast">快</string>
+    <string name="speed_instant">瞬间</string>
+    <string name="settings_audio">音效与音乐</string>
+    <string name="settings_font_size">正文字号</string>
+    <string name="font_small">小</string>
+    <string name="font_standard">标准</string>
+    <string name="font_large">大</string>
+    <string name="settings_version">版本</string>
+
+    <string name="story_end">剧终</string>
+    <string name="back_to_lobby">返回大厅</string>
+    <string name="scene_missing_fmt">配置错误：找不到场景 %1$s</string>
+
+    <string name="import_err_read">无法读取所选文件</string>
+    <string name="import_err_no_info">压缩包内缺少 Info.json</string>
+    <string name="import_err_bad_uid">Info.json 的 uid 非法：%1$s</string>
+    <string name="import_err_no_main">压缩包内缺少 Main.json</string>
+    <string name="import_err_mkdir">创建目录失败：%1$s</string>
+    <string name="import_err_parse_info">解压后 Info.json 无法解析</string>
+    <string name="import_err_exception">导入异常：%1$s</string>
+    <string name="import_err_decrypt">解密失败（文件损坏或密码不符）：%1$s</string>
+    <string name="import_err_slip">压缩包包含越界路径：%1$s</string>
+    <string name="import_log_title">VNable 剧本包导入日志</string>
+    <string name="import_log_time">时间：</string>
+    <string name="import_log_file">用户选择的文件：%1$s</string>
+    <string name="import_log_cached">已复制到缓存：%1$d 字节</string>
+    <string name="import_log_pack_info">剧本包信息：name=%1$s uid=%2$s ver=%3$s</string>
+    <string name="import_log_old_found">检测到同 uid 旧安装，先删除覆盖</string>
+    <string name="import_log_extracted">解压文件 %1$d 个</string>
+    <string name="import_log_fail">导入失败：%1$s</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="space_1">4dp</dimen>
+    <dimen name="space_2">8dp</dimen>
+    <dimen name="space_3">12dp</dimen>
+    <dimen name="space_4">16dp</dimen>
+    <dimen name="space_5">24dp</dimen>
+    <dimen name="space_6">32dp</dimen>
+    <dimen name="space_7">48dp</dimen>
+
+    <dimen name="radius_panel">24dp</dimen>
+    <dimen name="radius_card">18dp</dimen>
+    <dimen name="radius_small">12dp</dimen>
+
+    <dimen name="lobby_menu_width">300dp</dimen>
+    <dimen name="lobby_menu_start">56dp</dimen>
+    <dimen name="lobby_btn_primary_h">54dp</dimen>
+    <dimen name="lobby_btn_h">46dp</dimen>
+    <dimen name="lobby_btn_gap">9dp</dimen>
+
+    <dimen name="game_sys_bar_top">14dp</dimen>
+    <dimen name="game_sys_bar_end">16dp</dimen>
+    <dimen name="game_sys_btn">44dp</dimen>
+    <dimen name="game_dialog_h_margin">18dp</dimen>
+    <dimen name="game_dialog_bottom_margin">16dp</dimen>
+    <dimen name="game_dialog_h_pad">26dp</dimen>
+    <dimen name="game_dialog_v_pad">20dp</dimen>
+    <dimen name="game_option_h">52dp</dimen>
+    <dimen name="game_option_gap">10dp</dimen>
+    <dimen name="game_char_margin">26dp</dimen>
+
+    <dimen name="modal_corner">28dp</dimen>
+    <dimen name="modal_side_pad">24dp</dimen>
+    <dimen name="modal_max_width">420dp</dimen>
+    <dimen name="modal_btn_h">46dp</dimen>
+
+    <dimen name="switch_track_w">46dp</dimen>
+    <dimen name="switch_track_h">27dp</dimen>
+    <dimen name="switch_thumb">21dp</dimen>
+    <dimen name="badge_size">38dp</dimen>
+
+    <dimen name="dialog_text_small">16sp</dimen>
+    <dimen name="dialog_text_standard">18sp</dimen>
+    <dimen name="dialog_text_large">21sp</dimen>
+</resources>

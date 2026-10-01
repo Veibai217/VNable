@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground">
+
+    <LinearLayout
+        android:id="@+id/pack_top_bar"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/game_sys_btn"
+        android:layout_marginStart="@dimen/game_sys_bar_end"
+        android:layout_marginTop="@dimen/game_sys_bar_top"
+        android:layout_marginEnd="@dimen/game_sys_bar_end"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:contentDescription="@string/action_back"
+            android:focusable="true"
+            android:padding="9dp"
+            android:src="@drawable/ic_back"
+            app:tint="?attr/vnTextSecondary" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:text="@string/pack_manager_title"
+            android:textAppearance="@style/TextAppearance.VN.ModalTitle" />
+
+        <FrameLayout
+            android:id="@+id/btn_import"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:background="@drawable/bg_menu_primary"
+            android:clickable="true"
+            android:contentDescription="@string/pack_import"
+            android:focusable="true"
+            android:paddingHorizontal="16dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:importantForAccessibility="no"
+                    android:src="@drawable/ic_import"
+                    app:tint="?attr/vnOnAccent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="@string/pack_import"
+                    android:textAppearance="@style/TextAppearance.VN.MenuPrimary"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/pack_scroll"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="@dimen/game_sys_bar_end"
+        android:layout_marginTop="12dp"
+        android:clipToPadding="false"
+        android:paddingBottom="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pack_top_bar">
+
+        <LinearLayout
+            android:id="@+id/box_packs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tv_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.6"
+        android:text="@string/pack_empty_hint"
+        android:textAppearance="@style/TextAppearance.VN.ListSub"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pack_top_bar" />
+
+    <LinearLayout
+        android:id="@+id/import_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pack_top_bar">
+
+        <ProgressBar
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:indeterminateTint="?attr/vnAccent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/pack_importing"
+            android:textAppearance="@style/TextAppearance.VN.ListSub" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

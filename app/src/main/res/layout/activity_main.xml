@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_lobby_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/game_title"
+        android:scaleType="centerCrop"
+        android:src="@drawable/game_launcher" />
+
+    <View
+        android:id="@+id/scrim_lobby"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/scrim_lobby" />
+
+    <LinearLayout
+        android:id="@+id/menu_column"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center_vertical"
+        android:layout_marginStart="@dimen/lobby_menu_start"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:text="@string/game_title"
+            android:textAppearance="@style/TextAppearance.VN.Display" />
+
+        <View
+            android:id="@+id/logo_underline"
+            android:layout_width="52dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/accent_underline" />
+
+        <TextView
+            android:id="@+id/tv_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:letterSpacing="0.18"
+            android:text="@string/game_subtitle"
+            android:textColor="?attr/vnTextSecondary"
+            android:textSize="13sp" />
+
+        <View
+            android:id="@+id/space_brand"
+            android:layout_width="1dp"
+            android:layout_height="26dp" />
+
+        <FrameLayout
+            android:id="@+id/btn_continue"
+            android:layout_width="@dimen/lobby_menu_width"
+            android:layout_height="@dimen/lobby_btn_primary_h"
+            android:background="@drawable/bg_menu_primary"
+            android:clickable="true"
+            android:contentDescription="@string/menu_continue_start"
+            android:focusable="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+                    android:importantForAccessibility="no"
+                    android:src="@drawable/ic_play"
+                    app:tint="?attr/vnOnAccent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/menu_continue_start"
+                    android:textAppearance="@style/TextAppearance.VN.MenuPrimary" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/btn_save"
+            android:layout_width="@dimen/lobby_menu_width"
+            android:layout_height="@dimen/lobby_btn_h"
+            android:layout_marginTop="@dimen/lobby_btn_gap"
+            android:background="@drawable/bg_menu_item"
+            android:clickable="true"
+            android:contentDescription="@string/menu_save"
+            android:focusable="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingStart="22dp"
+                android:paddingEnd="18dp">
+
+                <ImageView
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+                    android:importantForAccessibility="no"
+                    android:src="@drawable/ic_save"
+                    app:tint="?attr/vnTextSecondary" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_weight="1"
+                    android:text="@string/menu_save"
+                    android:textAppearance="@style/TextAppearance.VN.MenuItem" />
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:importantForAccessibility="no"
+                    android:src="@drawable/ic_chevron_right"
+                    app:tint="?attr/vnTextFaint" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/btn_packs"
+            android:layout_width="@dimen/lobby_menu_width"
+            android:layout_height="@dimen/lobby_btn_h"
+            android:layout_marginTop="@dimen/lobby_btn_gap"
+            android:background="@drawable/bg_menu_item"
+            android:clickable="true"
+            android:contentDescription="@string/menu_packs"
+            android:focusable="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingStart="22dp"
+                android:paddingEnd="18dp">
+
+                <ImageView
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+                    android:importantForAccessibility="no"
+                    android:src="@drawable/ic_pack"
+                    app:tint="?attr/vnTextSecondary" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_weight="1"
+                    android:text="@string/menu_packs"
+                    android:textAppearance="@style/TextAppearance.VN.MenuItem" />
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:importantForAccessibility="no"
+                    android:src="@drawable/ic_chevron_right"
+                    app:tint="?attr/vnTextFaint" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/btn_settings"
+            android:layout_width="@dimen/lobby_menu_width"
+            android:layout_height="@dimen/lobby_btn_h"
+            android:layout_marginTop="@dimen/lobby_btn_gap"
+            android:background="@drawable/bg_menu_item"
+            android:clickable="true"
+            android:contentDescription="@string/menu_settings"
+            android:focusable="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingStart="22dp"
+                android:paddingEnd="18dp">
+
+                <ImageView
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+                    android:importantForAccessibility="no"
+                    android:src="@drawable/ic_settings"
+                    app:tint="?attr/vnTextSecondary" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_weight="1"
+                    android:text="@string/menu_settings"
+                    android:textAppearance="@style/TextAppearance.VN.MenuItem" />
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:importantForAccessibility="no"
+                    android:src="@drawable/ic_chevron_right"
+                    app:tint="?attr/vnTextFaint" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/btn_exit"
+            android:layout_width="@dimen/lobby_menu_width"
+            android:layout_height="@dimen/lobby_btn_h"
+            android:layout_marginTop="@dimen/lobby_btn_gap"
+            android:background="@drawable/bg_menu_item"
+            android:clickable="true"
+            android:contentDescription="@string/menu_exit"
+            android:focusable="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingStart="22dp"
+                android:paddingEnd="18dp">
+
+                <ImageView
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+                    android:importantForAccessibility="no"
+                    android:src="@drawable/ic_exit"
+                    app:tint="?attr/vnTextSecondary" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_weight="1"
+                    android:text="@string/menu_exit"
+                    android:textAppearance="@style/TextAppearance.VN.MenuItem" />
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:importantForAccessibility="no"
+                    android:src="@drawable/ic_chevron_right"
+                    app:tint="?attr/vnTextFaint" />
+        </LinearLayout>
+    </FrameLayout>
+    </LinearLayout>
+</FrameLayout>
