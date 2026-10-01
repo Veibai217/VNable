@@ -9,7 +9,7 @@
 
  **一款视觉小说引擎软件** 
 
-</dir>
+</div>
 
 ---
 
@@ -42,7 +42,7 @@
 
 **A Visual Novel Engine Software**
 
-<\dir>
+</div>
 
 ---
 
